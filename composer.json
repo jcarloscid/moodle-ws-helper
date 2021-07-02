@@ -1,0 +1,22 @@
+{
+  "name": "jcarloscid/moodle-ws-helper",
+  "version": "1.0.0",
+  "type": "library",
+  "description": "Allows to use a number of Moodle functions via the web service",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Carlos Cid",
+      "email": "carlos@fishandbits.es",
+      "homepage": "https://fishandbits.es/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "llagerlof/moodlerest": "2.4.0"
+  },
+  "autoload": {
+    "classmap": [ "MoodleWSHelper.php" ]
+  }
+}
